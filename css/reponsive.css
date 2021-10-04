@@ -1,0 +1,334 @@
+/* ===================
+extra small device
+=================== */
+@media (max-width:575px){
+    
+    .navbar .navbar-brand{
+        position: static !important;
+        transform: skewX(0deg);
+        padding: 0;
+       
+    }
+    .navbar .navbar-brand img{
+        transform: skewX(0deg);
+    }
+    .navbar .navbar-toggler{
+        background-color: #fff;
+    }
+
+    .navbar .navbar-toggler span{
+        color: var(--bclr);
+    }
+    .navbar .navbar-nav{
+        background-color: rgba(226, 62, 56, 0.7);
+        text-align: center;
+    }
+    /* navbar media end */
+
+    #banner .banner-item .banner-text h4 {
+        font-size: 15px;
+
+    }
+    #banner .banner-item .banner-text h1 {
+        font-size: 48px;
+
+    }
+    #banner .bg1 p {
+        padding: 0;
+    }
+
+    #banner .bg1 h1::before,
+    #banner .bg1 h1::after{
+        display: none;
+    }
+    #banner .bg1 h4::before,
+    #banner .bg1 h4::after{
+        display: none;
+    }
+    #banner .bg1 p::before,
+    #banner .bg1 p::after{
+        display: none;
+    }
+
+    #banner .banner-item {
+        padding-top: 250px;
+        padding-bottom: 95px;
+    }
+
+/* banner media css end */
+
+#about{
+    margin-top: 20px;
+}
+
+#about .text p {
+	font-size: 12px;
+	line-height: 18px;
+    padding: 0;
+
+}
+
+/* about media css end */
+
+#gallery{
+    margin-top: 20px;
+}
+
+/* gallery media css end */
+
+#team{
+    margin-top: 30px;
+}
+
+#team .team-bg .team-item {
+	margin: 0px 15px;
+}
+
+/* team media css end */
+
+#testimonial{
+    margin-top: 30px;
+}
+
+#testimonial .testimonial-bg .testimonial-item {
+	margin: 0px 15px;
+    text-align: justify;
+}
+
+#testimonial .testimonial-bg .testimonial-item .person-text p{
+    padding: 0; 
+}
+#testimonial .testimonial-item img{
+    width: 50% !important;
+}
+
+/* testimonial media css end */
+
+#membership .membership-item ul li {
+	padding-bottom: 15px;
+}
+
+#membership .membership-item ul {
+	font-size: 12px;
+}
+
+#membership .membership-item ul li:first-child {
+	padding-top: 30px;
+}
+
+#membership .membership-item ul li:last-child {
+	padding-bottom: 30px;
+}
+
+/* membership media css end */
+
+#funfact{
+    display: none;
+}
+/* funfact media css end */
+
+
+
+#routine .routine-tab .nav-tabs {
+	margin-top: 22px;
+	line-height: 36px;
+
+}
+#routine .routine-tab .nav-tabs .nav-item .nav-link {
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#routine .routine-tab .tab-content ul li p {
+	font-size: 13px;
+}
+
+#routine .routine-tab .tab-content ul li p:first-of-type {
+	padding-top: 20px;
+}
+#routine .routine-tab .tab-content ul li p:last-of-type {
+	padding-bottom: 20px;
+}
+
+#routine .routine-tab .tab-content ul li {
+	width: 50%;
+}
+/* routine media css end */
+
+#footer .logo img{
+    width: 50% !important;
+    margin: 0 auto;
+}
+
+#footer .copy h6{
+    width: 100%;
+    font-size: 10px !important;
+}
+
+}
+
+
+/* =================
+small device
+=================== */
+@media (min-width: 576px) and (max-width: 767px){
+    .navbar .navbar-brand{
+        position: static !important;
+        transform: skewX(0deg);
+        padding: 0;
+       
+    }
+    .navbar .navbar-brand img{
+        transform: skewX(0deg);
+    }
+    .navbar .navbar-toggler{
+        background-color: #fff;
+    }
+
+    .navbar .navbar-toggler span{
+        color: var(--bclr);
+    }
+    .navbar .navbar-nav{
+        background-color: rgba(226, 62, 56, 0.7);
+        text-align: center;
+    }
+    /* navbar media end */
+
+    #banner .bg1 h1::before,
+    #banner .bg1 h1::after{
+        display: none;
+    }
+    #banner .bg1 h4::before,
+    #banner .bg1 h4::after{
+        display: none;
+    }
+    #banner .bg1 p::before,
+    #banner .bg1 p::after{
+        display: none;
+    }
+    /* bannen css ends */
+
+    #about .text p {
+        padding: 0;
+    
+    }
+    
+    /* about media css end */
+
+    #funfact .counter-items h4 {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    #funfact .counter-items p {
+        font-size: 13px;
+    }
+
+    /* funfact css ends */
+
+
+    #routine .routine-tab .tab-content ul li p:first-of-type {
+        padding-top: 30px;
+    }
+    #routine .routine-tab .tab-content ul li p:last-of-type {
+        padding-bottom: 30px;
+    }
+
+    #routine .routine-tab .tab-content ul li {
+        width: 50%;
+    }
+
+/* routine css ends */
+}
+
+
+
+
+/* ===================
+medium device
+=================== */
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar .navbar-brand{
+        position: static !important;
+        /* transform: skewX(0deg);
+        padding: 0; */
+       
+    }
+    /* .navbar .navbar-brand img{
+        transform: skewX(0deg);
+    } */
+    .navbar .navbar-toggler{
+        background-color: #fff;
+    }
+
+    .navbar .navbar-toggler span{
+        color: var(--bclr);
+    }
+    .navbar .navbar-nav{
+        background-color: rgba(226, 62, 56, 0.7);
+        text-align: center;
+    }
+    /* navbar media end */
+
+    #banner .bg1 h1::before,
+    #banner .bg1 h1::after{
+        display: none;
+    }
+    #banner .bg1 h4::before,
+    #banner .bg1 h4::after{
+        display: none;
+    }
+    #banner .bg1 p::before,
+    #banner .bg1 p::after{
+        display: none;
+    }
+    /* bannen css ends */
+
+    #about .text p {
+        padding: 0;
+    }
+    
+    /* about media css end */
+
+    #membership .membership-item ul li {
+        padding-bottom: 18px;
+    }
+    
+    #membership .membership-item ul {
+        font-size: 12px;
+    }
+    
+    #membership .membership-item ul li:first-child {
+        padding-top: 30px;
+    }
+    
+    #membership .membership-item ul li:last-child {
+        padding-bottom: 30px;
+    }
+    
+    /* membership media css end */
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
